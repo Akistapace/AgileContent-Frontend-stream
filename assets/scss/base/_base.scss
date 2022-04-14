@@ -1,0 +1,50 @@
+*, *:after, *:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input,
+button {
+  outline: none;
+}
+html {
+  overflow: hidden;
+}
+body {
+  color: #fff;
+  background-color: #000000;
+  width: 100vw;
+  height: 100%;
+  font-family: $fontNunito;
+  // overflow-x: hidden;
+  overflow: hidden;
+  @include media('xs') {
+    background-color: #2a2a2a;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  padding: 0 5%;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+// Esconde a barra de rolagem
+* {
+  scrollbar-width: none; 
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
