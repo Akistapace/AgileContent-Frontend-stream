@@ -2,8 +2,10 @@
 Foi utilizado o RSCSS como metodologia para o scss.
 Nuxt foi utilizado para melhor manipulação da renderização, também é possível fazer sem problemas esta estrutura do teste com Javascript Vanilla(puro).
 
-
-
+Para rodar o projeto basta colocar no terminal 
+```
+npm run dev
+```
 
 ## Build Setup
 
