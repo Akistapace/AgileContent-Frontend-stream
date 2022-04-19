@@ -3,10 +3,10 @@
 :mag_right:	[view project](https://stunning-naiad-c423c3.netlify.app/)
 
 Project made with: 
-- Nuxtjs
-- Vue
-- Sass
-- HTML
+- ```Nuxtjs```
+- ```Vue```
+- ```Sass```
+- ```HTML```
 
 
 ## Develop Setup
